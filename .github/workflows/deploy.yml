@@ -34,9 +34,9 @@ jobs:
     
     # Step 4: Upload the built site for deployment
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
+      uses: actions/upload-pages-artifact@v4
       with:
-        path: ./
+        path: .
 
   # Job to deploy the website (only runs after build-and-test succeeds)
   deploy:
