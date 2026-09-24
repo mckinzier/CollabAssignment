@@ -22,3 +22,4 @@ they are inevitable. Therefore, it is better to use automated over manual deploy
 What would happen if you pushed code to a different branch (not main)?
 - The website would not deploy. It would checkout code, validate HTML, check links, upload artifact, 
 but would not deploy
+
